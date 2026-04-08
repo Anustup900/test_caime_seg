@@ -1,0 +1,1439 @@
+{
+  "0elGG9CoK6U_UDpY1Nfxnuw": {
+    "source": "0elGG9CoK6U_UDpY1Nfxnuw.jpg",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:44:43",
+    "outputs": {
+      "segmented": "fluid-bulk-output/0elGG9CoK6U_UDpY1Nfxnuw/segmented.png",
+      "mask": "fluid-bulk-output/0elGG9CoK6U_UDpY1Nfxnuw/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/0elGG9CoK6U_UDpY1Nfxnuw"
+  },
+  "0jCjanM_Bb4_jXWOuvgrV90": {
+    "source": "0jCjanM_Bb4_jXWOuvgrV90.png",
+    "class": "shirt",
+    "status": "missing_source"
+  },
+  "1C92XtKI3qk_UezFbVhZuV4": {
+    "source": "1C92XtKI3qk_UezFbVhZuV4.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:44:51",
+    "outputs": {
+      "segmented": "fluid-bulk-output/1C92XtKI3qk_UezFbVhZuV4/segmented.png",
+      "mask": "fluid-bulk-output/1C92XtKI3qk_UezFbVhZuV4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/1C92XtKI3qk_UezFbVhZuV4"
+  },
+  "1cbqELCozoI_h5bu_idNxcc": {
+    "source": "1cbqELCozoI_h5bu_idNxcc.jpg",
+    "class": "Jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:01",
+    "outputs": {
+      "segmented": "fluid-bulk-output/1cbqELCozoI_h5bu_idNxcc/segmented.png",
+      "mask": "fluid-bulk-output/1cbqELCozoI_h5bu_idNxcc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/1cbqELCozoI_h5bu_idNxcc"
+  },
+  "29QLdIAGflA_fbVewD4Ki8s": {
+    "source": "29QLdIAGflA_fbVewD4Ki8s.png",
+    "class": "Jeans",
+    "status": "missing_source"
+  },
+  "2p0vXwT2gbo_-kgQCH7LF9A": {
+    "source": "2p0vXwT2gbo_-kgQCH7LF9A.png",
+    "class": "shorts",
+    "status": "missing_source"
+  },
+  "390ntcWe9u8_BEIbE4toUwA": {
+    "source": "390ntcWe9u8_BEIbE4toUwA.jpg",
+    "class": "sportsbra",
+    "status": "missing_source"
+  },
+  "3WOH6x1IFD4_fI2wYcETyQg": {
+    "source": "3WOH6x1IFD4_fI2wYcETyQg.png",
+    "class": "bikini",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:09",
+    "outputs": {
+      "segmented": "fluid-bulk-output/3WOH6x1IFD4_fI2wYcETyQg/segmented.png",
+      "mask": "fluid-bulk-output/3WOH6x1IFD4_fI2wYcETyQg/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/3WOH6x1IFD4_fI2wYcETyQg"
+  },
+  "45TRvnbx6ds_IYTjQbWmMg8": {
+    "source": "45TRvnbx6ds_IYTjQbWmMg8.png",
+    "class": "Jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:18",
+    "outputs": {
+      "segmented": "fluid-bulk-output/45TRvnbx6ds_IYTjQbWmMg8/segmented.png",
+      "mask": "fluid-bulk-output/45TRvnbx6ds_IYTjQbWmMg8/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/45TRvnbx6ds_IYTjQbWmMg8"
+  },
+  "5ZXVFYhEqX8_T6UJBRnL4Uk": {
+    "source": "5ZXVFYhEqX8_T6UJBRnL4Uk.jpg",
+    "class": "tshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:26",
+    "outputs": {
+      "segmented": "fluid-bulk-output/5ZXVFYhEqX8_T6UJBRnL4Uk/segmented.png",
+      "mask": "fluid-bulk-output/5ZXVFYhEqX8_T6UJBRnL4Uk/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/5ZXVFYhEqX8_T6UJBRnL4Uk"
+  },
+  "6F62Q0Ml-Hg_lPGYQDpP7aA": {
+    "source": "6F62Q0Ml-Hg_lPGYQDpP7aA.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:36",
+    "outputs": {
+      "segmented": "fluid-bulk-output/6F62Q0Ml-Hg_lPGYQDpP7aA/segmented.png",
+      "mask": "fluid-bulk-output/6F62Q0Ml-Hg_lPGYQDpP7aA/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/6F62Q0Ml-Hg_lPGYQDpP7aA"
+  },
+  "6nqmU2nc_Jg_zu8-s592jB0": {
+    "source": "6nqmU2nc_Jg_zu8-s592jB0.jpg",
+    "class": "suit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:44",
+    "outputs": {
+      "segmented": "fluid-bulk-output/6nqmU2nc_Jg_zu8-s592jB0/segmented.png",
+      "mask": "fluid-bulk-output/6nqmU2nc_Jg_zu8-s592jB0/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/6nqmU2nc_Jg_zu8-s592jB0"
+  },
+  "6sbBP4QqZ-0_u-DBr1MDQYA": {
+    "source": "6sbBP4QqZ-0_u-DBr1MDQYA.jpg",
+    "class": "jumpsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:52",
+    "outputs": {
+      "segmented": "fluid-bulk-output/6sbBP4QqZ-0_u-DBr1MDQYA/segmented.png",
+      "mask": "fluid-bulk-output/6sbBP4QqZ-0_u-DBr1MDQYA/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/6sbBP4QqZ-0_u-DBr1MDQYA"
+  },
+  "6v27C--G-_s_jdBZYAfAfoU": {
+    "source": "6v27C--G-_s_jdBZYAfAfoU.jpg",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:45:59",
+    "outputs": {
+      "segmented": "fluid-bulk-output/6v27C--G-_s_jdBZYAfAfoU/segmented.png",
+      "mask": "fluid-bulk-output/6v27C--G-_s_jdBZYAfAfoU/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/6v27C--G-_s_jdBZYAfAfoU"
+  },
+  "7OWl5K3MvNA_zQewM-A1Eh8": {
+    "source": "7OWl5K3MvNA_zQewM-A1Eh8.jpg",
+    "class": "pouch",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:08",
+    "outputs": {
+      "segmented": "fluid-bulk-output/7OWl5K3MvNA_zQewM-A1Eh8/segmented.png",
+      "mask": "fluid-bulk-output/7OWl5K3MvNA_zQewM-A1Eh8/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/7OWl5K3MvNA_zQewM-A1Eh8"
+  },
+  "7lr604utW0E_CyTQVNlQ2vU": {
+    "source": "7lr604utW0E_CyTQVNlQ2vU.jpg",
+    "class": "tshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:17",
+    "outputs": {
+      "segmented": "fluid-bulk-output/7lr604utW0E_CyTQVNlQ2vU/segmented.png",
+      "mask": "fluid-bulk-output/7lr604utW0E_CyTQVNlQ2vU/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/7lr604utW0E_CyTQVNlQ2vU"
+  },
+  "7xoPmCP_1Sk_wO903TUdBZw": {
+    "source": "7xoPmCP_1Sk_wO903TUdBZw.jpeg",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:25",
+    "outputs": {
+      "segmented": "fluid-bulk-output/7xoPmCP_1Sk_wO903TUdBZw/segmented.png",
+      "mask": "fluid-bulk-output/7xoPmCP_1Sk_wO903TUdBZw/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/7xoPmCP_1Sk_wO903TUdBZw"
+  },
+  "8P27fIEVnEs_YjLby6hcEcM": {
+    "source": "8P27fIEVnEs_YjLby6hcEcM.jpg",
+    "class": "Jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:34",
+    "outputs": {
+      "segmented": "fluid-bulk-output/8P27fIEVnEs_YjLby6hcEcM/segmented.png",
+      "mask": "fluid-bulk-output/8P27fIEVnEs_YjLby6hcEcM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/8P27fIEVnEs_YjLby6hcEcM"
+  },
+  "8eCTJe9SBQU_IAKwZKXQXGc": {
+    "source": "8eCTJe9SBQU_IAKwZKXQXGc.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:42",
+    "outputs": {
+      "segmented": "fluid-bulk-output/8eCTJe9SBQU_IAKwZKXQXGc/segmented.png",
+      "mask": "fluid-bulk-output/8eCTJe9SBQU_IAKwZKXQXGc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/8eCTJe9SBQU_IAKwZKXQXGc"
+  },
+  "9FLCoOuFUmY_4i65ULI9S-U": {
+    "source": "9FLCoOuFUmY_4i65ULI9S-U.jpeg",
+    "class": "dress",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:49",
+    "outputs": {
+      "segmented": "fluid-bulk-output/9FLCoOuFUmY_4i65ULI9S-U/segmented.png",
+      "mask": "fluid-bulk-output/9FLCoOuFUmY_4i65ULI9S-U/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/9FLCoOuFUmY_4i65ULI9S-U"
+  },
+  "9YDYIXksK4Q_wps80eaYN_Q": {
+    "source": "9YDYIXksK4Q_wps80eaYN_Q.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:46:59",
+    "outputs": {
+      "segmented": "fluid-bulk-output/9YDYIXksK4Q_wps80eaYN_Q/segmented.png",
+      "mask": "fluid-bulk-output/9YDYIXksK4Q_wps80eaYN_Q/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/9YDYIXksK4Q_wps80eaYN_Q"
+  },
+  "ABUamSHrPe8_1p2WfrJGCuQ": {
+    "source": "ABUamSHrPe8_1p2WfrJGCuQ.jpg",
+    "class": "suit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:07",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ABUamSHrPe8_1p2WfrJGCuQ/segmented.png",
+      "mask": "fluid-bulk-output/ABUamSHrPe8_1p2WfrJGCuQ/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ABUamSHrPe8_1p2WfrJGCuQ"
+  },
+  "AV6Z6IC5ZtE_QsMARNr6AC4": {
+    "source": "AV6Z6IC5ZtE_QsMARNr6AC4.jpg",
+    "class": "blouse",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:15",
+    "outputs": {
+      "segmented": "fluid-bulk-output/AV6Z6IC5ZtE_QsMARNr6AC4/segmented.png",
+      "mask": "fluid-bulk-output/AV6Z6IC5ZtE_QsMARNr6AC4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/AV6Z6IC5ZtE_QsMARNr6AC4"
+  },
+  "Aa9DRcYfGW8_2jZC8Ml955Q": {
+    "source": "Aa9DRcYfGW8_2jZC8Ml955Q.jpg",
+    "class": "leggings",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:22",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Aa9DRcYfGW8_2jZC8Ml955Q/segmented.png",
+      "mask": "fluid-bulk-output/Aa9DRcYfGW8_2jZC8Ml955Q/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Aa9DRcYfGW8_2jZC8Ml955Q"
+  },
+  "AhNcB7N5IGE_FpPmFpYAjlY": {
+    "source": "AhNcB7N5IGE_FpPmFpYAjlY.png",
+    "class": "tshirt",
+    "status": "missing_source"
+  },
+  "BV4tLPd9Mjk_9M_QzdCNsGY": {
+    "source": "BV4tLPd9Mjk_9M_QzdCNsGY.png",
+    "class": "Jeans",
+    "status": "missing_source"
+  },
+  "BazFma5S7yk_PurO1j0tSZg": {
+    "source": "BazFma5S7yk_PurO1j0tSZg.jpg",
+    "class": "tshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:32",
+    "outputs": {
+      "segmented": "fluid-bulk-output/BazFma5S7yk_PurO1j0tSZg/segmented.png",
+      "mask": "fluid-bulk-output/BazFma5S7yk_PurO1j0tSZg/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/BazFma5S7yk_PurO1j0tSZg"
+  },
+  "Bcnql76tX-c_ixsFZ3sDxEY": {
+    "source": "Bcnql76tX-c_ixsFZ3sDxEY.png",
+    "class": "bra",
+    "status": "missing_source"
+  },
+  "C89MYNFcpO8_VDItJd2QtJk": {
+    "source": "C89MYNFcpO8_VDItJd2QtJk.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:40",
+    "outputs": {
+      "segmented": "fluid-bulk-output/C89MYNFcpO8_VDItJd2QtJk/segmented.png",
+      "mask": "fluid-bulk-output/C89MYNFcpO8_VDItJd2QtJk/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/C89MYNFcpO8_VDItJd2QtJk"
+  },
+  "Dp1RJ4AJLmQ_G7GtDQoRW58": {
+    "source": "Dp1RJ4AJLmQ_G7GtDQoRW58.png",
+    "class": "bikini",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:48",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Dp1RJ4AJLmQ_G7GtDQoRW58/segmented.png",
+      "mask": "fluid-bulk-output/Dp1RJ4AJLmQ_G7GtDQoRW58/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Dp1RJ4AJLmQ_G7GtDQoRW58"
+  },
+  "DtX-ZqsJJJk_eOV4Ju1MgEY": {
+    "source": "DtX-ZqsJJJk_eOV4Ju1MgEY.jpg",
+    "class": "tshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:47:57",
+    "outputs": {
+      "segmented": "fluid-bulk-output/DtX-ZqsJJJk_eOV4Ju1MgEY/segmented.png",
+      "mask": "fluid-bulk-output/DtX-ZqsJJJk_eOV4Ju1MgEY/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/DtX-ZqsJJJk_eOV4Ju1MgEY"
+  },
+  "E5YtMOJvscc_HbmRKSWRxUw": {
+    "source": "E5YtMOJvscc_HbmRKSWRxUw.jpg",
+    "class": "kimono",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:07",
+    "outputs": {
+      "segmented": "fluid-bulk-output/E5YtMOJvscc_HbmRKSWRxUw/segmented.png",
+      "mask": "fluid-bulk-output/E5YtMOJvscc_HbmRKSWRxUw/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/E5YtMOJvscc_HbmRKSWRxUw"
+  },
+  "E6ccrpdJ3RE_Ig8eQJR56Lo": {
+    "source": "E6ccrpdJ3RE_Ig8eQJR56Lo.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:16",
+    "outputs": {
+      "segmented": "fluid-bulk-output/E6ccrpdJ3RE_Ig8eQJR56Lo/segmented.png",
+      "mask": "fluid-bulk-output/E6ccrpdJ3RE_Ig8eQJR56Lo/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/E6ccrpdJ3RE_Ig8eQJR56Lo"
+  },
+  "EkTWf8RfUgA_SnzL_KjzMoE": {
+    "source": "EkTWf8RfUgA_SnzL_KjzMoE.jpeg",
+    "class": "hoodie",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:25",
+    "outputs": {
+      "segmented": "fluid-bulk-output/EkTWf8RfUgA_SnzL_KjzMoE/segmented.png",
+      "mask": "fluid-bulk-output/EkTWf8RfUgA_SnzL_KjzMoE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/EkTWf8RfUgA_SnzL_KjzMoE"
+  },
+  "FMd9j4L3z5k_2resZ-EFKGM": {
+    "source": "FMd9j4L3z5k_2resZ-EFKGM.png",
+    "class": "pants",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:34",
+    "outputs": {
+      "segmented": "fluid-bulk-output/FMd9j4L3z5k_2resZ-EFKGM/segmented.png",
+      "mask": "fluid-bulk-output/FMd9j4L3z5k_2resZ-EFKGM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/FMd9j4L3z5k_2resZ-EFKGM"
+  },
+  "FNaEazmNVrY_TTzVGTMIRKo": {
+    "source": "FNaEazmNVrY_TTzVGTMIRKo.jpg",
+    "class": "pouch",
+    "status": "missing_source"
+  },
+  "GEeSXiAvWRs_piOy4ioGhI4": {
+    "source": "GEeSXiAvWRs_piOy4ioGhI4.png",
+    "class": "Pants",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:43",
+    "outputs": {
+      "segmented": "fluid-bulk-output/GEeSXiAvWRs_piOy4ioGhI4/segmented.png",
+      "mask": "fluid-bulk-output/GEeSXiAvWRs_piOy4ioGhI4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/GEeSXiAvWRs_piOy4ioGhI4"
+  },
+  "Gk2q4J0yuwc_I3PiXJNMlMI": {
+    "source": "Gk2q4J0yuwc_I3PiXJNMlMI.png",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:51",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Gk2q4J0yuwc_I3PiXJNMlMI/segmented.png",
+      "mask": "fluid-bulk-output/Gk2q4J0yuwc_I3PiXJNMlMI/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Gk2q4J0yuwc_I3PiXJNMlMI"
+  },
+  "GmQim_QIPfg_R5ulEcym6go": {
+    "source": "GmQim_QIPfg_R5ulEcym6go.png",
+    "class": "top",
+    "status": "missing_source"
+  },
+  "H3s_JLCRR7Y_-dtlvOpoNyM": {
+    "source": "H3s_JLCRR7Y_-dtlvOpoNyM.jpg",
+    "class": "heels",
+    "status": "done",
+    "timestamp": "2026-04-08T12:48:59",
+    "outputs": {
+      "segmented": "fluid-bulk-output/H3s_JLCRR7Y_-dtlvOpoNyM/segmented.png",
+      "mask": "fluid-bulk-output/H3s_JLCRR7Y_-dtlvOpoNyM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/H3s_JLCRR7Y_-dtlvOpoNyM"
+  },
+  "HwTKtWe5JwA_Ph0yZ9CUWq4": {
+    "source": "HwTKtWe5JwA_Ph0yZ9CUWq4.jpg",
+    "class": "bag",
+    "status": "missing_source"
+  },
+  "Ik4EXyBO2tk_1-9mMvKahxs": {
+    "source": "Ik4EXyBO2tk_1-9mMvKahxs.jpg",
+    "class": "pants",
+    "status": "done",
+    "timestamp": "2026-04-08T12:49:08",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Ik4EXyBO2tk_1-9mMvKahxs/segmented.png",
+      "mask": "fluid-bulk-output/Ik4EXyBO2tk_1-9mMvKahxs/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Ik4EXyBO2tk_1-9mMvKahxs"
+  },
+  "J3hkCYzWl9E_UBIaKuPGkik": {
+    "source": "J3hkCYzWl9E_UBIaKuPGkik.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:49:17",
+    "outputs": {
+      "segmented": "fluid-bulk-output/J3hkCYzWl9E_UBIaKuPGkik/segmented.png",
+      "mask": "fluid-bulk-output/J3hkCYzWl9E_UBIaKuPGkik/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/J3hkCYzWl9E_UBIaKuPGkik"
+  },
+  "JAPIiA-B-cs_qngVweF8bdc": {
+    "source": "JAPIiA-B-cs_qngVweF8bdc.jpg",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:49:25",
+    "outputs": {
+      "segmented": "fluid-bulk-output/JAPIiA-B-cs_qngVweF8bdc/segmented.png",
+      "mask": "fluid-bulk-output/JAPIiA-B-cs_qngVweF8bdc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/JAPIiA-B-cs_qngVweF8bdc"
+  },
+  "J_SPQ0K5hno_lR-A24Cy3_I": {
+    "source": "J_SPQ0K5hno_lR-A24Cy3_I.jpg",
+    "class": "Jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T12:49:34",
+    "outputs": {
+      "segmented": "fluid-bulk-output/J_SPQ0K5hno_lR-A24Cy3_I/segmented.png",
+      "mask": "fluid-bulk-output/J_SPQ0K5hno_lR-A24Cy3_I/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/J_SPQ0K5hno_lR-A24Cy3_I"
+  },
+  "Kc9MuoyDT28_hDS9vSEBP4k": {
+    "source": "Kc9MuoyDT28_hDS9vSEBP4k.jpg",
+    "class": "shirt",
+    "status": "missing_source"
+  },
+  "L8gur7ONJ74_FHiv3uX11TA": {
+    "source": "L8gur7ONJ74_FHiv3uX11TA.jpg",
+    "class": "heels",
+    "status": "done",
+    "timestamp": "2026-04-08T12:49:41",
+    "outputs": {
+      "segmented": "fluid-bulk-output/L8gur7ONJ74_FHiv3uX11TA/segmented.png",
+      "mask": "fluid-bulk-output/L8gur7ONJ74_FHiv3uX11TA/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/L8gur7ONJ74_FHiv3uX11TA"
+  },
+  "LX_fysHk-bs_wFAJM8RmLdM": {
+    "source": "LX_fysHk-bs_wFAJM8RmLdM.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:49:52",
+    "outputs": {
+      "segmented": "fluid-bulk-output/LX_fysHk-bs_wFAJM8RmLdM/segmented.png",
+      "mask": "fluid-bulk-output/LX_fysHk-bs_wFAJM8RmLdM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/LX_fysHk-bs_wFAJM8RmLdM"
+  },
+  "MQlPlnoWU-s_vnPVaSHtARk": {
+    "source": "MQlPlnoWU-s_vnPVaSHtARk.jpeg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:01",
+    "outputs": {
+      "segmented": "fluid-bulk-output/MQlPlnoWU-s_vnPVaSHtARk/segmented.png",
+      "mask": "fluid-bulk-output/MQlPlnoWU-s_vnPVaSHtARk/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/MQlPlnoWU-s_vnPVaSHtARk"
+  },
+  "Mpu69zu79v0_XaePO_Xe9V0": {
+    "source": "Mpu69zu79v0_XaePO_Xe9V0.webp",
+    "class": "coat",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:10",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Mpu69zu79v0_XaePO_Xe9V0/segmented.png",
+      "mask": "fluid-bulk-output/Mpu69zu79v0_XaePO_Xe9V0/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Mpu69zu79v0_XaePO_Xe9V0"
+  },
+  "Nerf4JP8lPY_xWUjuMOXQDc": {
+    "source": "Nerf4JP8lPY_xWUjuMOXQDc.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:20",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Nerf4JP8lPY_xWUjuMOXQDc/segmented.png",
+      "mask": "fluid-bulk-output/Nerf4JP8lPY_xWUjuMOXQDc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Nerf4JP8lPY_xWUjuMOXQDc"
+  },
+  "P_48SGDUgd4_efNqo__5LxM": {
+    "source": "P_48SGDUgd4_efNqo__5LxM.webp",
+    "class": "swimsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:28",
+    "outputs": {
+      "segmented": "fluid-bulk-output/P_48SGDUgd4_efNqo__5LxM/segmented.png",
+      "mask": "fluid-bulk-output/P_48SGDUgd4_efNqo__5LxM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/P_48SGDUgd4_efNqo__5LxM"
+  },
+  "Pd5_MEV-21c_e1bxWb1Rt7s": {
+    "source": "Pd5_MEV-21c_e1bxWb1Rt7s.png",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:37",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Pd5_MEV-21c_e1bxWb1Rt7s/segmented.png",
+      "mask": "fluid-bulk-output/Pd5_MEV-21c_e1bxWb1Rt7s/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Pd5_MEV-21c_e1bxWb1Rt7s"
+  },
+  "Pdte7v9bXCQ_kMb4HLZLAo0": {
+    "source": "Pdte7v9bXCQ_kMb4HLZLAo0.tif",
+    "class": "blouse",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:45",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Pdte7v9bXCQ_kMb4HLZLAo0/segmented.png",
+      "mask": "fluid-bulk-output/Pdte7v9bXCQ_kMb4HLZLAo0/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Pdte7v9bXCQ_kMb4HLZLAo0"
+  },
+  "PqzcDXU6uso_Rao1kJ2wviA": {
+    "source": "PqzcDXU6uso_Rao1kJ2wviA.jpg",
+    "class": "blazer",
+    "status": "missing_source"
+  },
+  "Q2UeqIa0XfI_eTV1lMVDviI": {
+    "source": "Q2UeqIa0XfI_eTV1lMVDviI.webp",
+    "class": "swimsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:50:53",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Q2UeqIa0XfI_eTV1lMVDviI/segmented.png",
+      "mask": "fluid-bulk-output/Q2UeqIa0XfI_eTV1lMVDviI/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Q2UeqIa0XfI_eTV1lMVDviI"
+  },
+  "QDiD3gHCISk_knL6LS_AzUU": {
+    "source": "QDiD3gHCISk_knL6LS_AzUU.png",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:02",
+    "outputs": {
+      "segmented": "fluid-bulk-output/QDiD3gHCISk_knL6LS_AzUU/segmented.png",
+      "mask": "fluid-bulk-output/QDiD3gHCISk_knL6LS_AzUU/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/QDiD3gHCISk_knL6LS_AzUU"
+  },
+  "QEcLnGeEAd8_jeqnuvf95Q4": {
+    "source": "QEcLnGeEAd8_jeqnuvf95Q4.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:11",
+    "outputs": {
+      "segmented": "fluid-bulk-output/QEcLnGeEAd8_jeqnuvf95Q4/segmented.png",
+      "mask": "fluid-bulk-output/QEcLnGeEAd8_jeqnuvf95Q4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/QEcLnGeEAd8_jeqnuvf95Q4"
+  },
+  "QRnzVyrLqoM_yaSsLGAEhQA": {
+    "source": "QRnzVyrLqoM_yaSsLGAEhQA.png",
+    "class": "Pants",
+    "status": "missing_source"
+  },
+  "QbWyq-Yx524_ZKZyo8_4Ii0": {
+    "source": "QbWyq-Yx524_ZKZyo8_4Ii0.jpg",
+    "class": "bikini",
+    "status": "missing_source"
+  },
+  "QskKg-XH1Tk_ThE1ObzZsGY": {
+    "source": "QskKg-XH1Tk_ThE1ObzZsGY.png",
+    "class": "jumpsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:19",
+    "outputs": {
+      "segmented": "fluid-bulk-output/QskKg-XH1Tk_ThE1ObzZsGY/segmented.png",
+      "mask": "fluid-bulk-output/QskKg-XH1Tk_ThE1ObzZsGY/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/QskKg-XH1Tk_ThE1ObzZsGY"
+  },
+  "R-PabkaO5Lw_BZx3quumv3U": {
+    "source": "R-PabkaO5Lw_BZx3quumv3U.webp",
+    "class": "sweatshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:27",
+    "outputs": {
+      "segmented": "fluid-bulk-output/R-PabkaO5Lw_BZx3quumv3U/segmented.png",
+      "mask": "fluid-bulk-output/R-PabkaO5Lw_BZx3quumv3U/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/R-PabkaO5Lw_BZx3quumv3U"
+  },
+  "R2aJN55mP_Y_KpQekO9rTtM": {
+    "source": "R2aJN55mP_Y_KpQekO9rTtM.webp",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:35",
+    "outputs": {
+      "segmented": "fluid-bulk-output/R2aJN55mP_Y_KpQekO9rTtM/segmented.png",
+      "mask": "fluid-bulk-output/R2aJN55mP_Y_KpQekO9rTtM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/R2aJN55mP_Y_KpQekO9rTtM"
+  },
+  "REsod429P_I_MrziwzPJCXM": {
+    "source": "REsod429P_I_MrziwzPJCXM.jpg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:43",
+    "outputs": {
+      "segmented": "fluid-bulk-output/REsod429P_I_MrziwzPJCXM/segmented.png",
+      "mask": "fluid-bulk-output/REsod429P_I_MrziwzPJCXM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/REsod429P_I_MrziwzPJCXM"
+  },
+  "RH9TzSgSQhs_HE3ysIZVmAA": {
+    "source": "RH9TzSgSQhs_HE3ysIZVmAA.jpg",
+    "class": "bodysuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:51:53",
+    "outputs": {
+      "segmented": "fluid-bulk-output/RH9TzSgSQhs_HE3ysIZVmAA/segmented.png",
+      "mask": "fluid-bulk-output/RH9TzSgSQhs_HE3ysIZVmAA/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/RH9TzSgSQhs_HE3ysIZVmAA"
+  },
+  "ROl_Fq0KVZU_NO6tbs9xUiQ": {
+    "source": "ROl_Fq0KVZU_NO6tbs9xUiQ.jpeg",
+    "class": "Pants",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:01",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ROl_Fq0KVZU_NO6tbs9xUiQ/segmented.png",
+      "mask": "fluid-bulk-output/ROl_Fq0KVZU_NO6tbs9xUiQ/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ROl_Fq0KVZU_NO6tbs9xUiQ"
+  },
+  "R_rE7IQGWNk_Z7gniT-LdBE": {
+    "source": "R_rE7IQGWNk_Z7gniT-LdBE.jpeg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:11",
+    "outputs": {
+      "segmented": "fluid-bulk-output/R_rE7IQGWNk_Z7gniT-LdBE/segmented.png",
+      "mask": "fluid-bulk-output/R_rE7IQGWNk_Z7gniT-LdBE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/R_rE7IQGWNk_Z7gniT-LdBE"
+  },
+  "SnOdTy0piVo_NtLPSbPs7L4": {
+    "source": "SnOdTy0piVo_NtLPSbPs7L4.jpg",
+    "class": "skirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:19",
+    "outputs": {
+      "segmented": "fluid-bulk-output/SnOdTy0piVo_NtLPSbPs7L4/segmented.png",
+      "mask": "fluid-bulk-output/SnOdTy0piVo_NtLPSbPs7L4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/SnOdTy0piVo_NtLPSbPs7L4"
+  },
+  "Ui3eTTU5fGk_XxNpv7ZtJ6c": {
+    "source": "Ui3eTTU5fGk_XxNpv7ZtJ6c.png",
+    "class": "pants",
+    "status": "missing_source"
+  },
+  "UryX6dwX0Jc_f_UwZjogtdE": {
+    "source": "UryX6dwX0Jc_f_UwZjogtdE.png",
+    "class": "kaftan",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:29",
+    "outputs": {
+      "segmented": "fluid-bulk-output/UryX6dwX0Jc_f_UwZjogtdE/segmented.png",
+      "mask": "fluid-bulk-output/UryX6dwX0Jc_f_UwZjogtdE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/UryX6dwX0Jc_f_UwZjogtdE"
+  },
+  "V8S-OW8N9cU_g5rYT8OxC_c": {
+    "source": "V8S-OW8N9cU_g5rYT8OxC_c.png",
+    "class": "sweatshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:38",
+    "outputs": {
+      "segmented": "fluid-bulk-output/V8S-OW8N9cU_g5rYT8OxC_c/segmented.png",
+      "mask": "fluid-bulk-output/V8S-OW8N9cU_g5rYT8OxC_c/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/V8S-OW8N9cU_g5rYT8OxC_c"
+  },
+  "VFVkdfu5shc_uwEi4_wl2k4": {
+    "source": "VFVkdfu5shc_uwEi4_wl2k4.jpg",
+    "class": "bra",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:48",
+    "outputs": {
+      "segmented": "fluid-bulk-output/VFVkdfu5shc_uwEi4_wl2k4/segmented.png",
+      "mask": "fluid-bulk-output/VFVkdfu5shc_uwEi4_wl2k4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/VFVkdfu5shc_uwEi4_wl2k4"
+  },
+  "VKBeyGwwl7k_29-LiTGmES8": {
+    "source": "VKBeyGwwl7k_29-LiTGmES8.jpg",
+    "class": "Jacket",
+    "status": "missing_source"
+  },
+  "VumlSz3OkBs_Qni0H1Or_Vg": {
+    "source": "VumlSz3OkBs_Qni0H1Or_Vg.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:52:57",
+    "outputs": {
+      "segmented": "fluid-bulk-output/VumlSz3OkBs_Qni0H1Or_Vg/segmented.png",
+      "mask": "fluid-bulk-output/VumlSz3OkBs_Qni0H1Or_Vg/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/VumlSz3OkBs_Qni0H1Or_Vg"
+  },
+  "VzqpkPn0dmc_cPp3qHMRFP4": {
+    "source": "VzqpkPn0dmc_cPp3qHMRFP4.png",
+    "class": "leggings",
+    "status": "done",
+    "timestamp": "2026-04-08T12:53:06",
+    "outputs": {
+      "segmented": "fluid-bulk-output/VzqpkPn0dmc_cPp3qHMRFP4/segmented.png",
+      "mask": "fluid-bulk-output/VzqpkPn0dmc_cPp3qHMRFP4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/VzqpkPn0dmc_cPp3qHMRFP4"
+  },
+  "X4fvfsqGXMk_pqm7WTIn30Y": {
+    "source": "X4fvfsqGXMk_pqm7WTIn30Y.jpg",
+    "class": "Jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T12:53:15",
+    "outputs": {
+      "segmented": "fluid-bulk-output/X4fvfsqGXMk_pqm7WTIn30Y/segmented.png",
+      "mask": "fluid-bulk-output/X4fvfsqGXMk_pqm7WTIn30Y/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/X4fvfsqGXMk_pqm7WTIn30Y"
+  },
+  "XZXZHRbPLr0_csIvLOh9hjM": {
+    "source": "XZXZHRbPLr0_csIvLOh9hjM.jpeg",
+    "class": "blazer",
+    "status": "done",
+    "timestamp": "2026-04-08T12:53:25",
+    "outputs": {
+      "segmented": "fluid-bulk-output/XZXZHRbPLr0_csIvLOh9hjM/segmented.png",
+      "mask": "fluid-bulk-output/XZXZHRbPLr0_csIvLOh9hjM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/XZXZHRbPLr0_csIvLOh9hjM"
+  },
+  "YWuXAEZTcmw_zonhBpiHmqE": {
+    "source": "YWuXAEZTcmw_zonhBpiHmqE.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:53:34",
+    "outputs": {
+      "segmented": "fluid-bulk-output/YWuXAEZTcmw_zonhBpiHmqE/segmented.png",
+      "mask": "fluid-bulk-output/YWuXAEZTcmw_zonhBpiHmqE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/YWuXAEZTcmw_zonhBpiHmqE"
+  },
+  "Ysh2vY3hw-E_pQhW7zHCNQc": {
+    "source": "Ysh2vY3hw-E_pQhW7zHCNQc.webp",
+    "class": "sportsbra",
+    "status": "done",
+    "timestamp": "2026-04-08T12:53:42",
+    "outputs": {
+      "segmented": "fluid-bulk-output/Ysh2vY3hw-E_pQhW7zHCNQc/segmented.png",
+      "mask": "fluid-bulk-output/Ysh2vY3hw-E_pQhW7zHCNQc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/Ysh2vY3hw-E_pQhW7zHCNQc"
+  },
+  "ZCtETHtc6GI_owcr8tRKZ9Y": {
+    "source": "ZCtETHtc6GI_owcr8tRKZ9Y.png",
+    "class": "bikini",
+    "status": "done",
+    "timestamp": "2026-04-08T12:53:50",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ZCtETHtc6GI_owcr8tRKZ9Y/segmented.png",
+      "mask": "fluid-bulk-output/ZCtETHtc6GI_owcr8tRKZ9Y/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ZCtETHtc6GI_owcr8tRKZ9Y"
+  },
+  "ZO1GHYc1j08_PPmFQI-bh2w": {
+    "source": "ZO1GHYc1j08_PPmFQI-bh2w.png",
+    "class": "bag",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:00",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ZO1GHYc1j08_PPmFQI-bh2w/segmented.png",
+      "mask": "fluid-bulk-output/ZO1GHYc1j08_PPmFQI-bh2w/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ZO1GHYc1j08_PPmFQI-bh2w"
+  },
+  "ZihQycyMVOI_5dzLz0ntMc0": {
+    "source": "ZihQycyMVOI_5dzLz0ntMc0.jpeg",
+    "class": "dress",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:07",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ZihQycyMVOI_5dzLz0ntMc0/segmented.png",
+      "mask": "fluid-bulk-output/ZihQycyMVOI_5dzLz0ntMc0/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ZihQycyMVOI_5dzLz0ntMc0"
+  },
+  "_3YtknscmQQ_Effl1nqDFt0": {
+    "source": "_3YtknscmQQ_Effl1nqDFt0.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:36:06",
+    "outputs": {
+      "segmented": "fluid-bulk-output/_3YtknscmQQ_Effl1nqDFt0/segmented.png",
+      "mask": "fluid-bulk-output/_3YtknscmQQ_Effl1nqDFt0/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/_3YtknscmQQ_Effl1nqDFt0"
+  },
+  "_4CuQPeAOP4_k_fH4hv8PhE": {
+    "source": "_4CuQPeAOP4_k_fH4hv8PhE.png",
+    "class": "leggings",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:15",
+    "outputs": {
+      "segmented": "fluid-bulk-output/_4CuQPeAOP4_k_fH4hv8PhE/segmented.png",
+      "mask": "fluid-bulk-output/_4CuQPeAOP4_k_fH4hv8PhE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/_4CuQPeAOP4_k_fH4hv8PhE"
+  },
+  "_EAajHd4IIo_nheqIzRG_WU": {
+    "source": "_EAajHd4IIo_nheqIzRG_WU.jpg",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:24",
+    "outputs": {
+      "segmented": "fluid-bulk-output/_EAajHd4IIo_nheqIzRG_WU/segmented.png",
+      "mask": "fluid-bulk-output/_EAajHd4IIo_nheqIzRG_WU/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/_EAajHd4IIo_nheqIzRG_WU"
+  },
+  "_oyqSbDG-Xk_g-t0-bbu3rY": {
+    "source": "_oyqSbDG-Xk_g-t0-bbu3rY.jpg",
+    "class": "bra",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:32",
+    "outputs": {
+      "segmented": "fluid-bulk-output/_oyqSbDG-Xk_g-t0-bbu3rY/segmented.png",
+      "mask": "fluid-bulk-output/_oyqSbDG-Xk_g-t0-bbu3rY/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/_oyqSbDG-Xk_g-t0-bbu3rY"
+  },
+  "_w9PbtJKpYQ_AQr8Pc4v3ik": {
+    "source": "_w9PbtJKpYQ_AQr8Pc4v3ik.png",
+    "class": "blouse",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:40",
+    "outputs": {
+      "segmented": "fluid-bulk-output/_w9PbtJKpYQ_AQr8Pc4v3ik/segmented.png",
+      "mask": "fluid-bulk-output/_w9PbtJKpYQ_AQr8Pc4v3ik/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/_w9PbtJKpYQ_AQr8Pc4v3ik"
+  },
+  "a64mKA9jIfU_UF8HgbLD-0E": {
+    "source": "a64mKA9jIfU_UF8HgbLD-0E.jpg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:50",
+    "outputs": {
+      "segmented": "fluid-bulk-output/a64mKA9jIfU_UF8HgbLD-0E/segmented.png",
+      "mask": "fluid-bulk-output/a64mKA9jIfU_UF8HgbLD-0E/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/a64mKA9jIfU_UF8HgbLD-0E"
+  },
+  "a8-9_FCDDoY_ng8je8SDZQE": {
+    "source": "a8-9_FCDDoY_ng8je8SDZQE.png",
+    "class": "jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T12:54:58",
+    "outputs": {
+      "segmented": "fluid-bulk-output/a8-9_FCDDoY_ng8je8SDZQE/segmented.png",
+      "mask": "fluid-bulk-output/a8-9_FCDDoY_ng8je8SDZQE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/a8-9_FCDDoY_ng8je8SDZQE"
+  },
+  "areYju4RIp4_HaQBuQ-2rSM": {
+    "source": "areYju4RIp4_HaQBuQ-2rSM.png",
+    "class": "top",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:06",
+    "outputs": {
+      "segmented": "fluid-bulk-output/areYju4RIp4_HaQBuQ-2rSM/segmented.png",
+      "mask": "fluid-bulk-output/areYju4RIp4_HaQBuQ-2rSM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/areYju4RIp4_HaQBuQ-2rSM"
+  },
+  "bkrOtPhgtoc_pEIwkjCEHeo": {
+    "source": "bkrOtPhgtoc_pEIwkjCEHeo.jpg",
+    "class": "heels",
+    "status": "missing_source"
+  },
+  "c-lMdWREeH8_5njVfNxEKXs": {
+    "source": "c-lMdWREeH8_5njVfNxEKXs.jpg",
+    "class": "swimsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:14",
+    "outputs": {
+      "segmented": "fluid-bulk-output/c-lMdWREeH8_5njVfNxEKXs/segmented.png",
+      "mask": "fluid-bulk-output/c-lMdWREeH8_5njVfNxEKXs/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/c-lMdWREeH8_5njVfNxEKXs"
+  },
+  "clGEkYlvPEI_aaunLBGPCuE": {
+    "source": "clGEkYlvPEI_aaunLBGPCuE.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:24",
+    "outputs": {
+      "segmented": "fluid-bulk-output/clGEkYlvPEI_aaunLBGPCuE/segmented.png",
+      "mask": "fluid-bulk-output/clGEkYlvPEI_aaunLBGPCuE/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/clGEkYlvPEI_aaunLBGPCuE"
+  },
+  "f4KjdV25WU8_UqjXSrigPJ0": {
+    "source": "f4KjdV25WU8_UqjXSrigPJ0.png",
+    "class": "top",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:33",
+    "outputs": {
+      "segmented": "fluid-bulk-output/f4KjdV25WU8_UqjXSrigPJ0/segmented.png",
+      "mask": "fluid-bulk-output/f4KjdV25WU8_UqjXSrigPJ0/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/f4KjdV25WU8_UqjXSrigPJ0"
+  },
+  "faEYyBJIQYA_rOE8n80n1Cs": {
+    "source": "faEYyBJIQYA_rOE8n80n1Cs.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:42",
+    "outputs": {
+      "segmented": "fluid-bulk-output/faEYyBJIQYA_rOE8n80n1Cs/segmented.png",
+      "mask": "fluid-bulk-output/faEYyBJIQYA_rOE8n80n1Cs/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/faEYyBJIQYA_rOE8n80n1Cs"
+  },
+  "fgm75rLtNT0_41krosP6550": {
+    "source": "fgm75rLtNT0_41krosP6550.jpg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:50",
+    "outputs": {
+      "segmented": "fluid-bulk-output/fgm75rLtNT0_41krosP6550/segmented.png",
+      "mask": "fluid-bulk-output/fgm75rLtNT0_41krosP6550/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/fgm75rLtNT0_41krosP6550"
+  },
+  "ftqSly8yq_s_ipoGgtPRy54": {
+    "source": "ftqSly8yq_s_ipoGgtPRy54.jpg",
+    "class": "swimsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:55:59",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ftqSly8yq_s_ipoGgtPRy54/segmented.png",
+      "mask": "fluid-bulk-output/ftqSly8yq_s_ipoGgtPRy54/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ftqSly8yq_s_ipoGgtPRy54"
+  },
+  "fvYe-513DhU_IhzUZIdp1z4": {
+    "source": "fvYe-513DhU_IhzUZIdp1z4.png",
+    "class": "leggings",
+    "status": "missing_source"
+  },
+  "gXzJDxlrjJU_dziby4UA0mQ": {
+    "source": "gXzJDxlrjJU_dziby4UA0mQ.png",
+    "class": "underwear",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:06",
+    "outputs": {
+      "segmented": "fluid-bulk-output/gXzJDxlrjJU_dziby4UA0mQ/segmented.png",
+      "mask": "fluid-bulk-output/gXzJDxlrjJU_dziby4UA0mQ/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/gXzJDxlrjJU_dziby4UA0mQ"
+  },
+  "h2AtPopYVRE_kCuZVugLGVM": {
+    "source": "h2AtPopYVRE_kCuZVugLGVM.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:15",
+    "outputs": {
+      "segmented": "fluid-bulk-output/h2AtPopYVRE_kCuZVugLGVM/segmented.png",
+      "mask": "fluid-bulk-output/h2AtPopYVRE_kCuZVugLGVM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/h2AtPopYVRE_kCuZVugLGVM"
+  },
+  "hFF1x3DFDOQ_a6zBpuiZB7g": {
+    "source": "hFF1x3DFDOQ_a6zBpuiZB7g.png",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:23",
+    "outputs": {
+      "segmented": "fluid-bulk-output/hFF1x3DFDOQ_a6zBpuiZB7g/segmented.png",
+      "mask": "fluid-bulk-output/hFF1x3DFDOQ_a6zBpuiZB7g/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/hFF1x3DFDOQ_a6zBpuiZB7g"
+  },
+  "hX7BW2a-wiA_LVu-jZTCDjA": {
+    "source": "hX7BW2a-wiA_LVu-jZTCDjA.jpg",
+    "class": "bikini",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:31",
+    "outputs": {
+      "segmented": "fluid-bulk-output/hX7BW2a-wiA_LVu-jZTCDjA/segmented.png",
+      "mask": "fluid-bulk-output/hX7BW2a-wiA_LVu-jZTCDjA/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/hX7BW2a-wiA_LVu-jZTCDjA"
+  },
+  "haOeaiyTpxY_IX3AqwR53bQ": {
+    "source": "haOeaiyTpxY_IX3AqwR53bQ.jpg",
+    "class": "pouch",
+    "status": "missing_source"
+  },
+  "iEsir8GSgyc_omjFSXtwaz8": {
+    "source": "iEsir8GSgyc_omjFSXtwaz8.png",
+    "class": "skirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:40",
+    "outputs": {
+      "segmented": "fluid-bulk-output/iEsir8GSgyc_omjFSXtwaz8/segmented.png",
+      "mask": "fluid-bulk-output/iEsir8GSgyc_omjFSXtwaz8/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/iEsir8GSgyc_omjFSXtwaz8"
+  },
+  "iGFmb1ciqrI_e7iBrYh_Gss": {
+    "source": "iGFmb1ciqrI_e7iBrYh_Gss.jpg",
+    "class": "bra",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:49",
+    "outputs": {
+      "segmented": "fluid-bulk-output/iGFmb1ciqrI_e7iBrYh_Gss/segmented.png",
+      "mask": "fluid-bulk-output/iGFmb1ciqrI_e7iBrYh_Gss/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/iGFmb1ciqrI_e7iBrYh_Gss"
+  },
+  "jVOM4wMbygc_b_-z1kyVALM": {
+    "source": "jVOM4wMbygc_b_-z1kyVALM.png",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:56:57",
+    "outputs": {
+      "segmented": "fluid-bulk-output/jVOM4wMbygc_b_-z1kyVALM/segmented.png",
+      "mask": "fluid-bulk-output/jVOM4wMbygc_b_-z1kyVALM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/jVOM4wMbygc_b_-z1kyVALM"
+  },
+  "jvIB8A_hKKE_9ly1Jdydfos": {
+    "source": "jvIB8A_hKKE_9ly1Jdydfos.jpg",
+    "class": "shirt",
+    "status": "missing_source"
+  },
+  "jwx3vwSqh-E_rHweKHAnsIY": {
+    "source": "jwx3vwSqh-E_rHweKHAnsIY.jpg",
+    "class": "bikini",
+    "status": "missing_source"
+  },
+  "k8DHv0CocMc_jIansiXpmBo": {
+    "source": "k8DHv0CocMc_jIansiXpmBo.png",
+    "class": "bikini",
+    "status": "missing_source"
+  },
+  "kK25osoctVM_F2X1lvKaZ4E": {
+    "source": "kK25osoctVM_F2X1lvKaZ4E.jpg",
+    "class": "bodysuit",
+    "status": "missing_source"
+  },
+  "kNwV9ZStB1Q_YzgjfVDLGkc": {
+    "source": "kNwV9ZStB1Q_YzgjfVDLGkc.jpg",
+    "class": "Jeans",
+    "status": "missing_source"
+  },
+  "kRWTDOTvMMk_RussMxRKgZ8": {
+    "source": "kRWTDOTvMMk_RussMxRKgZ8.png",
+    "class": "sweatshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:57:07",
+    "outputs": {
+      "segmented": "fluid-bulk-output/kRWTDOTvMMk_RussMxRKgZ8/segmented.png",
+      "mask": "fluid-bulk-output/kRWTDOTvMMk_RussMxRKgZ8/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/kRWTDOTvMMk_RussMxRKgZ8"
+  },
+  "kvInR5C5JJ0_etD8-M1BTUc": {
+    "source": "kvInR5C5JJ0_etD8-M1BTUc.png",
+    "class": "pants",
+    "status": "done",
+    "timestamp": "2026-04-08T12:57:16",
+    "outputs": {
+      "segmented": "fluid-bulk-output/kvInR5C5JJ0_etD8-M1BTUc/segmented.png",
+      "mask": "fluid-bulk-output/kvInR5C5JJ0_etD8-M1BTUc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/kvInR5C5JJ0_etD8-M1BTUc"
+  },
+  "l_yfeOD3J10_03KQFoqS1e4": {
+    "source": "l_yfeOD3J10_03KQFoqS1e4.jpeg",
+    "class": "Pants",
+    "status": "missing_source"
+  },
+  "lsia4DN5D_I_we67Dp14idY": {
+    "source": "lsia4DN5D_I_we67Dp14idY.jpg",
+    "class": "swimsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:57:24",
+    "outputs": {
+      "segmented": "fluid-bulk-output/lsia4DN5D_I_we67Dp14idY/segmented.png",
+      "mask": "fluid-bulk-output/lsia4DN5D_I_we67Dp14idY/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/lsia4DN5D_I_we67Dp14idY"
+  },
+  "mFUHQ6UbRo8_8h2hLbva6vc": {
+    "source": "mFUHQ6UbRo8_8h2hLbva6vc.png",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:57:32",
+    "outputs": {
+      "segmented": "fluid-bulk-output/mFUHQ6UbRo8_8h2hLbva6vc/segmented.png",
+      "mask": "fluid-bulk-output/mFUHQ6UbRo8_8h2hLbva6vc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/mFUHQ6UbRo8_8h2hLbva6vc"
+  },
+  "nLQFStdpbkI_zj78LnKei5s": {
+    "source": "nLQFStdpbkI_zj78LnKei5s.jpg",
+    "class": "jumpsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:57:42",
+    "outputs": {
+      "segmented": "fluid-bulk-output/nLQFStdpbkI_zj78LnKei5s/segmented.png",
+      "mask": "fluid-bulk-output/nLQFStdpbkI_zj78LnKei5s/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/nLQFStdpbkI_zj78LnKei5s"
+  },
+  "nM7LhT91f7E_qen9B2yto5o": {
+    "source": "nM7LhT91f7E_qen9B2yto5o.jpg",
+    "class": "shorts",
+    "status": "done",
+    "timestamp": "2026-04-08T12:57:51",
+    "outputs": {
+      "segmented": "fluid-bulk-output/nM7LhT91f7E_qen9B2yto5o/segmented.png",
+      "mask": "fluid-bulk-output/nM7LhT91f7E_qen9B2yto5o/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/nM7LhT91f7E_qen9B2yto5o"
+  },
+  "ns_CvRc3fts_5O1y1GK0POU": {
+    "source": "ns_CvRc3fts_5O1y1GK0POU.png",
+    "class": "tshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:00",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ns_CvRc3fts_5O1y1GK0POU/segmented.png",
+      "mask": "fluid-bulk-output/ns_CvRc3fts_5O1y1GK0POU/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ns_CvRc3fts_5O1y1GK0POU"
+  },
+  "oPVMoZAblYY_9_HL7wonI24": {
+    "source": "oPVMoZAblYY_9_HL7wonI24.png",
+    "class": "Jeans",
+    "status": "missing_source"
+  },
+  "olwXYJArSTg_l-8CcZ3rsZ8": {
+    "source": "olwXYJArSTg_l-8CcZ3rsZ8.png",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:08",
+    "outputs": {
+      "segmented": "fluid-bulk-output/olwXYJArSTg_l-8CcZ3rsZ8/segmented.png",
+      "mask": "fluid-bulk-output/olwXYJArSTg_l-8CcZ3rsZ8/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/olwXYJArSTg_l-8CcZ3rsZ8"
+  },
+  "ot_FyXyiOBY_dGX3jtW7O3o": {
+    "source": "ot_FyXyiOBY_dGX3jtW7O3o.png",
+    "class": "cardigan",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:17",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ot_FyXyiOBY_dGX3jtW7O3o/segmented.png",
+      "mask": "fluid-bulk-output/ot_FyXyiOBY_dGX3jtW7O3o/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ot_FyXyiOBY_dGX3jtW7O3o"
+  },
+  "ouD-g6wrvCk_ashNSyIwkKQ": {
+    "source": "ouD-g6wrvCk_ashNSyIwkKQ.jpeg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:26",
+    "outputs": {
+      "segmented": "fluid-bulk-output/ouD-g6wrvCk_ashNSyIwkKQ/segmented.png",
+      "mask": "fluid-bulk-output/ouD-g6wrvCk_ashNSyIwkKQ/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/ouD-g6wrvCk_ashNSyIwkKQ"
+  },
+  "pKJftPbQ7AM_lkmJczieu-g": {
+    "source": "pKJftPbQ7AM_lkmJczieu-g.jpg",
+    "class": "blouse",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:35",
+    "outputs": {
+      "segmented": "fluid-bulk-output/pKJftPbQ7AM_lkmJczieu-g/segmented.png",
+      "mask": "fluid-bulk-output/pKJftPbQ7AM_lkmJczieu-g/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/pKJftPbQ7AM_lkmJczieu-g"
+  },
+  "pgTRpAukVK4_e93imIH86XU": {
+    "source": "pgTRpAukVK4_e93imIH86XU.jpeg",
+    "class": "Jeans",
+    "status": "missing_source"
+  },
+  "pywsciW2nIg_bwthp886qYs": {
+    "source": "pywsciW2nIg_bwthp886qYs.png",
+    "class": "Jacket",
+    "status": "missing_source"
+  },
+  "q78SIjyZjO8_qW1c2c1TXBM": {
+    "source": "q78SIjyZjO8_qW1c2c1TXBM.png",
+    "class": "bodysuit",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:43",
+    "outputs": {
+      "segmented": "fluid-bulk-output/q78SIjyZjO8_qW1c2c1TXBM/segmented.png",
+      "mask": "fluid-bulk-output/q78SIjyZjO8_qW1c2c1TXBM/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/q78SIjyZjO8_qW1c2c1TXBM"
+  },
+  "qXBUgYcXuOA_K6_9_RjssUo": {
+    "source": "qXBUgYcXuOA_K6_9_RjssUo.jpg",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T12:58:52",
+    "outputs": {
+      "segmented": "fluid-bulk-output/qXBUgYcXuOA_K6_9_RjssUo/segmented.png",
+      "mask": "fluid-bulk-output/qXBUgYcXuOA_K6_9_RjssUo/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/qXBUgYcXuOA_K6_9_RjssUo"
+  },
+  "qnIGOn3ek3o_Cza-Kt0ep5w": {
+    "source": "qnIGOn3ek3o_Cza-Kt0ep5w.jpg",
+    "class": "blazer",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:00",
+    "outputs": {
+      "segmented": "fluid-bulk-output/qnIGOn3ek3o_Cza-Kt0ep5w/segmented.png",
+      "mask": "fluid-bulk-output/qnIGOn3ek3o_Cza-Kt0ep5w/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/qnIGOn3ek3o_Cza-Kt0ep5w"
+  },
+  "qtPOMrq2Oq8_jvUyF-4Y2c4": {
+    "source": "qtPOMrq2Oq8_jvUyF-4Y2c4.png",
+    "class": "coat",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:09",
+    "outputs": {
+      "segmented": "fluid-bulk-output/qtPOMrq2Oq8_jvUyF-4Y2c4/segmented.png",
+      "mask": "fluid-bulk-output/qtPOMrq2Oq8_jvUyF-4Y2c4/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/qtPOMrq2Oq8_jvUyF-4Y2c4"
+  },
+  "rp-ZAeTG6OI_TpyNlo-kGog": {
+    "source": "rp-ZAeTG6OI_TpyNlo-kGog.png",
+    "class": "sportsbra",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:18",
+    "outputs": {
+      "segmented": "fluid-bulk-output/rp-ZAeTG6OI_TpyNlo-kGog/segmented.png",
+      "mask": "fluid-bulk-output/rp-ZAeTG6OI_TpyNlo-kGog/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/rp-ZAeTG6OI_TpyNlo-kGog"
+  },
+  "s60Up10TOtA_la4cWHYgFHg": {
+    "source": "s60Up10TOtA_la4cWHYgFHg.jpg",
+    "class": "bag",
+    "status": "missing_source"
+  },
+  "sbZBAJ1Us8I_EyTEz7zXWPU": {
+    "source": "sbZBAJ1Us8I_EyTEz7zXWPU.png",
+    "class": "kimono",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:27",
+    "outputs": {
+      "segmented": "fluid-bulk-output/sbZBAJ1Us8I_EyTEz7zXWPU/segmented.png",
+      "mask": "fluid-bulk-output/sbZBAJ1Us8I_EyTEz7zXWPU/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/sbZBAJ1Us8I_EyTEz7zXWPU"
+  },
+  "tqPxEcmNBWo_8gYUQyL9oVc": {
+    "source": "tqPxEcmNBWo_8gYUQyL9oVc.jpeg",
+    "class": "Jeans",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:36",
+    "outputs": {
+      "segmented": "fluid-bulk-output/tqPxEcmNBWo_8gYUQyL9oVc/segmented.png",
+      "mask": "fluid-bulk-output/tqPxEcmNBWo_8gYUQyL9oVc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/tqPxEcmNBWo_8gYUQyL9oVc"
+  },
+  "uCLNlmAhbGI_7mR3E_GJCis": {
+    "source": "uCLNlmAhbGI_7mR3E_GJCis.png",
+    "class": "pants",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:45",
+    "outputs": {
+      "segmented": "fluid-bulk-output/uCLNlmAhbGI_7mR3E_GJCis/segmented.png",
+      "mask": "fluid-bulk-output/uCLNlmAhbGI_7mR3E_GJCis/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/uCLNlmAhbGI_7mR3E_GJCis"
+  },
+  "uMzGt9gi6C0_ttcEP9X033w": {
+    "source": "uMzGt9gi6C0_ttcEP9X033w.jpg",
+    "class": "bag",
+    "status": "done",
+    "timestamp": "2026-04-08T12:59:53",
+    "outputs": {
+      "segmented": "fluid-bulk-output/uMzGt9gi6C0_ttcEP9X033w/segmented.png",
+      "mask": "fluid-bulk-output/uMzGt9gi6C0_ttcEP9X033w/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/uMzGt9gi6C0_ttcEP9X033w"
+  },
+  "uQWkDb_hbNU_wI9_jsJwK8I": {
+    "source": "uQWkDb_hbNU_wI9_jsJwK8I.png",
+    "class": "shirt",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:02",
+    "outputs": {
+      "segmented": "fluid-bulk-output/uQWkDb_hbNU_wI9_jsJwK8I/segmented.png",
+      "mask": "fluid-bulk-output/uQWkDb_hbNU_wI9_jsJwK8I/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/uQWkDb_hbNU_wI9_jsJwK8I"
+  },
+  "u_h8hEl0fAI_VthzzXU8q3U": {
+    "source": "u_h8hEl0fAI_VthzzXU8q3U.png",
+    "class": "jacket",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:11",
+    "outputs": {
+      "segmented": "fluid-bulk-output/u_h8hEl0fAI_VthzzXU8q3U/segmented.png",
+      "mask": "fluid-bulk-output/u_h8hEl0fAI_VthzzXU8q3U/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/u_h8hEl0fAI_VthzzXU8q3U"
+  },
+  "w3uJl9gBNdc_XgZ6REbbG2Y": {
+    "source": "w3uJl9gBNdc_XgZ6REbbG2Y.jpeg",
+    "class": "skirt",
+    "status": "missing_source"
+  },
+  "w70FtmLpJR4_biBkXsYccOc": {
+    "source": "w70FtmLpJR4_biBkXsYccOc.jpg",
+    "class": "tshirt",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:19",
+    "outputs": {
+      "segmented": "fluid-bulk-output/w70FtmLpJR4_biBkXsYccOc/segmented.png",
+      "mask": "fluid-bulk-output/w70FtmLpJR4_biBkXsYccOc/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/w70FtmLpJR4_biBkXsYccOc"
+  },
+  "xJmAYGH2VC4_llVqo5vKbRI": {
+    "source": "xJmAYGH2VC4_llVqo5vKbRI.jpg",
+    "class": "pants",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:28",
+    "outputs": {
+      "segmented": "fluid-bulk-output/xJmAYGH2VC4_llVqo5vKbRI/segmented.png",
+      "mask": "fluid-bulk-output/xJmAYGH2VC4_llVqo5vKbRI/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/xJmAYGH2VC4_llVqo5vKbRI"
+  },
+  "xUStyWO44HQ_iFhlNY18uks": {
+    "source": "xUStyWO44HQ_iFhlNY18uks.jpeg",
+    "class": "bodysuit",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:37",
+    "outputs": {
+      "segmented": "fluid-bulk-output/xUStyWO44HQ_iFhlNY18uks/segmented.png",
+      "mask": "fluid-bulk-output/xUStyWO44HQ_iFhlNY18uks/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/xUStyWO44HQ_iFhlNY18uks"
+  },
+  "xYGu2YIKYPA_1puc3ql8ykI": {
+    "source": "xYGu2YIKYPA_1puc3ql8ykI.webp",
+    "class": "bodysuit",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:46",
+    "outputs": {
+      "segmented": "fluid-bulk-output/xYGu2YIKYPA_1puc3ql8ykI/segmented.png",
+      "mask": "fluid-bulk-output/xYGu2YIKYPA_1puc3ql8ykI/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/xYGu2YIKYPA_1puc3ql8ykI"
+  },
+  "xttMF7pHyeI_7iIQtXIx_lI": {
+    "source": "xttMF7pHyeI_7iIQtXIx_lI.png",
+    "class": "Pants",
+    "status": "done",
+    "timestamp": "2026-04-08T13:00:55",
+    "outputs": {
+      "segmented": "fluid-bulk-output/xttMF7pHyeI_7iIQtXIx_lI/segmented.png",
+      "mask": "fluid-bulk-output/xttMF7pHyeI_7iIQtXIx_lI/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/xttMF7pHyeI_7iIQtXIx_lI"
+  },
+  "y1LpAr2Ffjs_Egq17uHKTc8": {
+    "source": "y1LpAr2Ffjs_Egq17uHKTc8.jpg",
+    "class": "jumpsuit",
+    "status": "done",
+    "timestamp": "2026-04-08T13:01:04",
+    "outputs": {
+      "segmented": "fluid-bulk-output/y1LpAr2Ffjs_Egq17uHKTc8/segmented.png",
+      "mask": "fluid-bulk-output/y1LpAr2Ffjs_Egq17uHKTc8/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/y1LpAr2Ffjs_Egq17uHKTc8"
+  },
+  "yD7NeIdx8jU_5emPYvFv20Y": {
+    "source": "yD7NeIdx8jU_5emPYvFv20Y.jpeg",
+    "class": "hoodie",
+    "status": "done",
+    "timestamp": "2026-04-08T13:01:13",
+    "outputs": {
+      "segmented": "fluid-bulk-output/yD7NeIdx8jU_5emPYvFv20Y/segmented.png",
+      "mask": "fluid-bulk-output/yD7NeIdx8jU_5emPYvFv20Y/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/yD7NeIdx8jU_5emPYvFv20Y"
+  },
+  "yK_S0oUR56o_YVpOqPJvtzk": {
+    "source": "yK_S0oUR56o_YVpOqPJvtzk.png",
+    "class": "skirt",
+    "status": "done",
+    "timestamp": "2026-04-08T13:01:22",
+    "outputs": {
+      "segmented": "fluid-bulk-output/yK_S0oUR56o_YVpOqPJvtzk/segmented.png",
+      "mask": "fluid-bulk-output/yK_S0oUR56o_YVpOqPJvtzk/mask.png"
+    },
+    "output_dir": "fluid-bulk-output/yK_S0oUR56o_YVpOqPJvtzk"
+  }
+}
