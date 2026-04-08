@@ -1,0 +1,875 @@
+{
+    "5": {
+        "inputs": {
+            "object_class": ["2105", 0],
+            "moondream_model": "vikhyatk/moondream2",
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomMoonDreamNode",
+        "_meta": {
+            "title": "Moondream Object Detection"
+        }
+    },
+    "6": {
+        "inputs": {
+            "object_class": ["2105", 1],
+            "moondream_model": "vikhyatk/moondream2",
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomMoonDreamNode",
+        "_meta": {
+            "title": "Moondream Object Detection"
+        }
+    },
+    "9": {
+        "inputs": {
+            "object_class": ["2105", 2],
+            "moondream_model": "vikhyatk/moondream2",
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomMoonDreamNode",
+        "_meta": {
+            "title": "Moondream Object Detection"
+        }
+    },
+    "10": {
+        "inputs": {
+            "object_class": ["2105", 3],
+            "moondream_model": "vikhyatk/moondream2",
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomMoonDreamNode",
+        "_meta": {
+            "title": "Moondream Object Detection"
+        }
+    },
+    "13": {
+        "inputs": {
+            "ckpt_name": "dreamshaperXL_lightningDPMSDE.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple",
+        "_meta": {
+            "title": "$map:{\"ckpt_name\":\"sdCheckpoint\"}"
+        }
+    },
+    "26": {
+        "inputs": {
+            "control_net_name": "sai_xl_canny_256lora.safetensors"
+        },
+        "class_type": "ControlNetLoader",
+        "_meta": {
+            "title": "$map:{\"control_net_name\":\"cannyControlNet.model\"}"
+        }
+    },
+    "218": {
+        "inputs": {
+            "model": "CIDAS/clipseg-rd64-refined"
+        },
+        "class_type": "CLIPSeg Model Loader",
+        "_meta": {
+            "title": "CLIPSeg Model Loader"
+        }
+    },
+    "252": {
+        "inputs": {
+            "model_name": "GroundingDINO_SwinB (938MB)"
+        },
+        "class_type": "GroundingDinoModelLoader (segment anything)",
+        "_meta": {
+            "title": "GroundingDinoModelLoader (segment anything)"
+        }
+    },
+    "254": {
+        "inputs": {
+            "model_name": "sam_vit_b_01ec64.pth",
+            "device_mode": "Prefer GPU"
+        },
+        "class_type": "SAMLoader",
+        "_meta": {
+            "title": "SAMLoader (Impact)"
+        }
+    },
+    "272": {
+        "inputs": {
+            "control_net_name": "diffusers_xl_depth_full.safetensors"
+        },
+        "class_type": "ControlNetLoader",
+        "_meta": {
+            "title": "$map:{\"control_net_name\":\"depthControlNet.model\"}"
+        }
+    },
+    "285": {
+        "inputs": {
+            "model_name": "codeformer.pth"
+        },
+        "class_type": "FaceRestoreModelLoader",
+        "_meta": {
+            "title": "FaceRestoreModelLoader"
+        }
+    },
+    "296": {
+        "inputs": {
+            "control_net_name": "control_v11p_sd15_softedge_fp16.safetensors"
+        },
+        "class_type": "ControlNetLoader",
+        "_meta": {
+            "title": "Load Softedge Model"
+        }
+    },
+    "364": {
+        "inputs": {
+            "model_name": "4x-UltraSharp.pth"
+        },
+        "class_type": "UpscaleModelLoader",
+        "_meta": {
+            "title": "$map:{\"model_name\": \"upscalerModel\"}"
+        }
+    },
+    "454": {
+        "inputs": {
+            "switch": "Off",
+            "lora_name": "white_1_0.safetensors",
+            "strength_model": ["2107", 0],
+            "strength_clip": ["2108", 0],
+            "model": ["13", 0],
+            "clip": ["13", 1]
+        },
+        "class_type": "CR Load LoRA",
+        "_meta": {
+            "title": "$map:{\"lora_name\":\"customLora.id\",\"switch\": \"customLora.enabled\"}"
+        }
+    },
+    "1075": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "sd_xl_offset_example-lora_1.0.safetensors",
+            "strength_model": 1,
+            "strength_clip": 1,
+            "inverse": false,
+            "seed": 0,
+            "A": 2,
+            "B": 2,
+            "preset": "Preset",
+            "block_vector": "0,0,0,0,0,0,B,B,B,0,0,0",
+            "bypass": false
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "$map:{\"lora_name\":\"productLora.id\", \"block_vector\": \"productLora.blocks\"}"
+        }
+    },
+    "1159": {
+        "inputs": {
+            "text": "Checkpoint loaded:"
+        },
+        "class_type": "ProfileNode",
+        "_meta": {
+            "title": "ProfileNode"
+        }
+    },
+    "1221": {
+        "inputs": {
+            "ckpt_name": "realisticVisionV60B1_v51VAE.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple",
+        "_meta": {
+            "title": "Load Refiner Checkpoint"
+        }
+    },
+    "1222": {
+        "inputs": {
+            "lora_name": "detail_tweaker_1_5.safetensors",
+            "strength_model": 0.2,
+            "strength_clip": 0.2,
+            "model": ["1221", 0],
+            "clip": ["1221", 1]
+        },
+        "class_type": "LoraLoader",
+        "_meta": {
+            "title": "Load LoRA"
+        }
+    },
+    "1230": {
+        "inputs": {
+            "control_net_name": "control_v11f1e_sd15_tile.pth"
+        },
+        "class_type": "ControlNetLoader",
+        "_meta": {
+            "title": "Load ControlNet Model"
+        }
+    },
+    "1450": {
+        "inputs": {
+            "ipadapter_file": "ip-adapter-plus_sdxl_vit-h.bin"
+        },
+        "class_type": "IPAdapterModelLoader",
+        "_meta": {
+            "title": "IPAdapter Model Loader"
+        }
+    },
+    "1454": {
+        "inputs": {
+            "clip_name": "ViT-H.safetensors"
+        },
+        "class_type": "CLIPVisionLoader",
+        "_meta": {
+            "title": "Load CLIP Vision"
+        }
+    },
+    "1620": {
+        "inputs": {
+            "ipadapter_file": "ip-adapter-faceid-plusv2_sdxl.bin"
+        },
+        "class_type": "IPAdapterModelLoader",
+        "_meta": {
+            "title": "IPAdapter Model Loader"
+        }
+    },
+    "1621": {
+        "inputs": {
+            "ipadapter_file": "ip-adapter-plus-face_sdxl_vit-h.bin"
+        },
+        "class_type": "IPAdapterModelLoader",
+        "_meta": {
+            "title": "IPAdapter Model Loader"
+        }
+    },
+    "1622": {
+        "inputs": {
+            "lora_name": "ip-adapter-faceid-plusv2_sdxl_lora.safetensors",
+            "strength_model": 0.65
+        },
+        "class_type": "LoraLoaderModelOnly",
+        "_meta": {
+            "title": "LoraLoaderModelOnly"
+        }
+    },
+    "1661": {
+        "inputs": {
+            "provider": "CPU",
+            "model_name": "buffalo_l"
+        },
+        "class_type": "IPAdapterInsightFaceLoader",
+        "_meta": {
+            "title": "IPAdapter InsightFace Loader"
+        }
+    },
+    "1722": {
+        "inputs": {
+            "fov": 60,
+            "iterations": 5,
+            "resolution": 1024
+        },
+        "class_type": "DSINE-NormalMapPreprocessor",
+        "_meta": {
+            "title": "DSINE Normal Map"
+        }
+    },
+    "1740": {
+        "inputs": {
+            "model_name": "big-lama.pt"
+        },
+        "class_type": "INPAINT_LoadInpaintModel",
+        "_meta": {
+            "title": "Load Inpaint Model"
+        }
+    },
+    "1745": {
+        "inputs": {
+            "method": "VITMatte",
+            "mask_grow": 0,
+            "fix_gap": 0,
+            "fix_threshold": 0.75,
+            "edge_erode": 6,
+            "edte_dilate": 6,
+            "black_point": 0.01,
+            "white_point": 0.99,
+            "device": "cuda",
+            "max_megapixels": 2
+        },
+        "class_type": "LayerMask: MaskEdgeUltraDetail V2",
+        "_meta": {
+            "title": "LayerMask: MaskEdgeUltraDetail V2"
+        }
+    },
+    "1746": {
+        "inputs": {
+            "model_name": "sam_vit_h (2.56GB)"
+        },
+        "class_type": "SAMModelLoader (segment anything)",
+        "_meta": {
+            "title": "SAMModelLoader (segment anything)"
+        }
+    },
+    "1822": {
+        "inputs": {
+            "model_name": "codeformer.pth"
+        },
+        "class_type": "FaceRestoreModelLoader",
+        "_meta": {
+            "title": "FaceRestoreModelLoader"
+        }
+    },
+    "1823": {
+        "inputs": {
+            "unet_name": "jibMixFlux_v61RealPixFixed.safetensors",
+            "weight_dtype": "default"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+            "title": "$map:{\"unet_name\": \"sdCheckpoint\"}"
+        }
+    },
+    "1842": {
+        "inputs": {
+            "strength": 1,
+            "model": ["1858", 0]
+        },
+        "class_type": "DifferentialDiffusion",
+        "_meta": {
+            "title": "Differential Diffusion"
+        }
+    },
+    "1845": {
+        "inputs": {
+            "clip_name": "sigclip_vision_patch14_384.safetensors"
+        },
+        "class_type": "CLIPVisionLoader",
+        "_meta": {
+            "title": "Load CLIP Vision"
+        }
+    },
+    "1847": {
+        "inputs": {
+            "vae_name": "ae.safetensors"
+        },
+        "class_type": "VAELoader",
+        "_meta": {
+            "title": "Load VAE"
+        }
+    },
+    "1851": {
+        "inputs": {
+            "clip_name1": "clip_l.safetensors",
+            "clip_name2": "t5xxl_fp16.safetensors",
+            "type": "flux",
+            "device": "default"
+        },
+        "class_type": "DualCLIPLoader",
+        "_meta": {
+            "title": "DualCLIPLoader"
+        }
+    },
+    "1852": {
+        "inputs": {
+            "unet_name": "flux1-dev.safetensors",
+            "weight_dtype": "default"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+            "title": "$map:{\"unet_name\": \"sdCheckpoint\"}"
+        }
+    },
+    "1853": {
+        "inputs": {
+            "style_model_name": "redux.safetensors"
+        },
+        "class_type": "StyleModelLoader",
+        "_meta": {
+            "title": "Load Style Model"
+        }
+    },
+    "1854": {
+        "inputs": {
+            "model": "CIDAS/clipseg-rd64-refined"
+        },
+        "class_type": "CLIPSeg Model Loader",
+        "_meta": {
+            "title": "CLIPSeg Model Loader"
+        }
+    },
+    "1856": {
+        "inputs": {
+            "model_name": "sam_vit_h_4b8939.pth",
+            "device_mode": "AUTO"
+        },
+        "class_type": "SAMLoader",
+        "_meta": {
+            "title": "SAMLoader (Impact)"
+        }
+    },
+    "1858": {
+        "inputs": {
+            "unet_name": "flux-fill.safetensors",
+            "weight_dtype": "default"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+            "title": "Load Diffusion Model"
+        }
+    },
+    "1962": {
+        "inputs": {
+            "filename_prefix": "mask",
+            "images": ["1963", 0],
+            "mask": ["2120", 0]
+        },
+        "class_type": "SaveImageWithAlpha",
+        "_meta": {
+            "title": "$map:{\"saveImage\":true,\"type\":\"mask\"}"
+        }
+    },
+    "1963": {
+        "inputs": {
+            "mask": ["1970", 1]
+        },
+        "class_type": "MaskToImage",
+        "_meta": {
+            "title": "Convert Mask to Image"
+        }
+    },
+    "1964": {
+        "inputs": {
+            "filename_prefix": "segmented",
+            "images": ["1965", 0]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+            "title": "$map:{\"saveImage\":true,\"type\":\"segmented\"}"
+        }
+    },
+    "1965": {
+        "inputs": {
+            "x": 0,
+            "y": 0,
+            "resize_source": true,
+            "destination": ["2114", 0],
+            "source": ["1966", 0],
+            "mask": ["1969", 0]
+        },
+        "class_type": "ImageCompositeMasked",
+        "_meta": {
+            "title": "ImageCompositeMasked"
+        }
+    },
+    "1966": {
+        "inputs": {
+            "width": 512,
+            "height": 512,
+            "batch_size": 1,
+            "color": 16777215
+        },
+        "class_type": "EmptyImage",
+        "_meta": {
+            "title": "EmptyImage"
+        }
+    },
+    "1969": {
+        "inputs": {
+            "mask": ["1970", 1]
+        },
+        "class_type": "InvertMask",
+        "_meta": {
+            "title": "InvertMask"
+        }
+    },
+    "1970": {
+        "inputs": {
+            "method": "VITMatte(local)",
+            "mask_grow": 0,
+            "fix_gap": 5,
+            "fix_threshold": 0.75,
+            "edge_erode": 6,
+            "edte_dilate": 6,
+            "black_point": 0.01,
+            "white_point": 0.99,
+            "device": "cuda",
+            "max_megapixels": 2,
+            "image": ["2114", 0],
+            "mask": ["2021", 0]
+        },
+        "class_type": "LayerMask: MaskEdgeUltraDetail V2",
+        "_meta": {
+            "title": "LayerMask: MaskEdgeUltraDetail V2"
+        }
+    },
+    "1982": {
+        "inputs": {
+            "image": "example.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+            "title": "$map:{\"image\":\"productImage\"}"
+        }
+    },
+    "1983": {
+        "inputs": {
+            "strings": "",
+            "multiline": false,
+            "select": 0
+        },
+        "class_type": "ImpactStringSelector",
+        "_meta": {
+            "title": "$map:{\"strings\":\"className\"}"
+        }
+    },
+    "1984": {
+        "inputs": {
+            "detail_method": "VITMatte",
+            "detail_erode": 1,
+            "detail_dilate": 1,
+            "black_point": 0.01,
+            "white_point": 0.99,
+            "process_detail": false,
+            "device": "cuda",
+            "max_megapixels": 2,
+            "image": ["1982", 0],
+            "birefnet_model": ["1985", 0]
+        },
+        "class_type": "LayerMask: BiRefNetUltraV2",
+        "_meta": {
+            "title": "LayerMask: BiRefNet Ultra V2(Advance)"
+        }
+    },
+    "1985": {
+        "inputs": {
+            "version": "BiRefNet-General"
+        },
+        "class_type": "LayerMask: LoadBiRefNetModelV2",
+        "_meta": {
+            "title": "LayerMask: Load BiRefNet Model V2(Advance)"
+        }
+    },
+    "1992": {
+        "inputs": {
+            "face": false,
+            "hair": false,
+            "glasses": false,
+            "top_clothes": false,
+            "bottom_clothes": false,
+            "torso_skin": true,
+            "left_arm": true,
+            "right_arm": true,
+            "left_leg": true,
+            "right_leg": true,
+            "left_foot": true,
+            "right_foot": true,
+            "detail_method": "VITMatte",
+            "detail_erode": 8,
+            "detail_dilate": 6,
+            "black_point": 0.01,
+            "white_point": 0.99,
+            "process_detail": false,
+            "device": "cuda",
+            "max_megapixels": 2,
+            "image": ["1982", 0]
+        },
+        "class_type": "LayerMask: HumanPartsUltra",
+        "_meta": {
+            "title": "LayerMask: Human Parts Ultra(Advance)"
+        }
+    },
+    "2000": {
+        "inputs": {
+            "masks_a": ["2001", 0],
+            "masks_b": ["2019", 0]
+        },
+        "class_type": "Masks Add",
+        "_meta": {
+            "title": "Masks Add"
+        }
+    },
+    "2001": {
+        "inputs": {
+            "mask": ["1984", 1]
+        },
+        "class_type": "InvertMask",
+        "_meta": {
+            "title": "InvertMask"
+        }
+    },
+    "2008": {
+        "inputs": {
+            "masks_a": ["1992", 1],
+            "masks_b": ["2017", 0]
+        },
+        "class_type": "Masks Add",
+        "_meta": {
+            "title": "Masks Add"
+        }
+    },
+    "2017": {
+        "inputs": {
+            "select": ["2116", 0],
+            "sel_mode": false,
+            "input1": ["2000", 0],
+            "input2": ["2019", 0]
+        },
+        "class_type": "ImpactSwitch",
+        "_meta": {
+            "title": "Switch (Any)"
+        }
+    },
+    "2019": {
+        "inputs": {
+            "any": ["2148", 0]
+        },
+        "class_type": "LayerUtility: AnyRerouter",
+        "_meta": {
+            "title": "LayerUtility: Any Rerouter"
+        }
+    },
+    "2021": {
+        "inputs": {
+            "select": ["2119", 0],
+            "sel_mode": false,
+            "input1": ["2008", 0],
+            "input2": ["2017", 0]
+        },
+        "class_type": "ImpactSwitch",
+        "_meta": {
+            "title": "Switch (Any)"
+        }
+    },
+    "2083": {
+        "inputs": {
+            "bounding_box_json": ["5", 1],
+            "sam_checkpoint": "auto_download",
+            "sam_model_type": "vit_h_4b8939",
+            "return_visualization": true,
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomSAMNode",
+        "_meta": {
+            "title": "SAM Segmentation"
+        }
+    },
+    "2099": {
+        "inputs": {
+            "bounding_box_json": ["6", 1],
+            "sam_checkpoint": "auto_download",
+            "sam_model_type": "vit_h_4b8939",
+            "return_visualization": true,
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomSAMNode",
+        "_meta": {
+            "title": "SAM Segmentation"
+        }
+    },
+    "2100": {
+        "inputs": {
+            "mask1": ["2083", 1],
+            "mask2": ["2099", 1]
+        },
+        "class_type": "AddMask",
+        "_meta": {
+            "title": "Pixelwise(MASK + MASK)"
+        }
+    },
+    "2101": {
+        "inputs": {
+            "bounding_box_json": ["9", 1],
+            "sam_checkpoint": "auto_download",
+            "sam_model_type": "vit_h_4b8939",
+            "return_visualization": true,
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomSAMNode",
+        "_meta": {
+            "title": "SAM Segmentation"
+        }
+    },
+    "2102": {
+        "inputs": {
+            "bounding_box_json": ["10", 1],
+            "sam_checkpoint": "auto_download",
+            "sam_model_type": "vit_h_4b8939",
+            "return_visualization": true,
+            "image": ["2137", 0]
+        },
+        "class_type": "CustomSAMNode",
+        "_meta": {
+            "title": "SAM Segmentation"
+        }
+    },
+    "2103": {
+        "inputs": {
+            "mask1": ["2101", 1],
+            "mask2": ["2102", 1]
+        },
+        "class_type": "AddMask",
+        "_meta": {
+            "title": "Pixelwise(MASK + MASK)"
+        }
+    },
+    "2104": {
+        "inputs": {
+            "mask1": ["2100", 0],
+            "mask2": ["2103", 0]
+        },
+        "class_type": "AddMask",
+        "_meta": {
+            "title": "Pixelwise(MASK + MASK)"
+        }
+    },
+    "2105": {
+        "inputs": {
+            "text": ["1983", 0],
+            "delimiter": ","
+        },
+        "class_type": "CR Split String",
+        "_meta": {
+            "title": "🔤 CR Split String"
+        }
+    },
+    "2107": {
+        "inputs": {
+            "value": 1
+        },
+        "class_type": "ImpactFloat",
+        "_meta": {
+            "title": "$map:{\"value\": \"customLora.UNETStrength\"}"
+        }
+    },
+    "2108": {
+        "inputs": {
+            "value": 1
+        },
+        "class_type": "ImpactFloat",
+        "_meta": {
+            "title": "$map:{\"value\": \"customLora.TEStrength\"}"
+        }
+    },
+    "2109": {
+        "inputs": {
+            "value": 1
+        },
+        "class_type": "ImpactInt",
+        "_meta": {
+            "title": "ImpactInt"
+        }
+    },
+    "2110": {
+        "inputs": {
+            "value": 2
+        },
+        "class_type": "ImpactInt",
+        "_meta": {
+            "title": "ImpactInt"
+        }
+    },
+    "2114": {
+        "inputs": {
+            "image": ["1982", 0]
+        },
+        "class_type": "ImageRemoveAlpha+",
+        "_meta": {
+            "title": "🔧 Image Remove Alpha"
+        }
+    },
+    "2115": {
+        "inputs": {
+            "value": false
+        },
+        "class_type": "ImpactBoolean",
+        "_meta": {
+            "title": "$map:{\"value\":\"config.background\"}"
+        }
+    },
+    "2116": {
+        "inputs": {
+            "ANY": ["2115", 0],
+            "IF_TRUE": ["2109", 0],
+            "IF_FALSE": ["2110", 0]
+        },
+        "class_type": "CustomIfExecute",
+        "_meta": {
+            "title": "Custom if any executes"
+        }
+    },
+    "2117": {
+        "inputs": {
+            "value": false
+        },
+        "class_type": "ImpactBoolean",
+        "_meta": {
+            "title": "$map:{\"value\":\"config.torsoAndLimbs\"}"
+        }
+    },
+    "2119": {
+        "inputs": {
+            "ANY": ["2117", 0],
+            "IF_TRUE": ["2109", 0],
+            "IF_FALSE": ["2110", 0]
+        },
+        "class_type": "CustomIfExecute",
+        "_meta": {
+            "title": "Custom if any executes"
+        }
+    },
+    "2120": {
+        "inputs": {
+            "expand": ["2121", 0],
+            "incremental_expandrate": 0,
+            "tapered_corners": true,
+            "flip_input": false,
+            "blur_radius": 0,
+            "lerp_alpha": 1,
+            "decay_factor": 1,
+            "fill_holes": false,
+            "mask": ["1970", 1]
+        },
+        "class_type": "GrowMaskWithBlur",
+        "_meta": {
+            "title": "Grow Mask With Blur"
+        }
+    },
+    "2121": {
+        "inputs": {
+            "value": 0
+        },
+        "class_type": "ImpactInt",
+        "_meta": {
+            "title": "$map:{\"value\":\"expand\"}"
+        }
+    },
+    "2135": {
+        "inputs": {
+            "image": ["1982", 0]
+        },
+        "class_type": "GetImageSize+",
+        "_meta": {
+            "title": "🔧 Get Image Size"
+        }
+    },
+    "2137": {
+        "inputs": {
+            "left": 50,
+            "right": 50,
+            "top": 50,
+            "bottom": 50,
+            "extra_padding": 0,
+            "pad_mode": "edge",
+            "color": "255, 255, 255",
+            "image": ["1982", 0]
+        },
+        "class_type": "ImagePadKJ",
+        "_meta": {
+            "title": "ImagePad KJ"
+        }
+    },
+    "2148": {
+        "inputs": {
+            "x": 50,
+            "y": 50,
+            "width": ["2135", 0],
+            "height": ["2135", 1],
+            "mask": ["2104", 0]
+        },
+        "class_type": "CropMask",
+        "_meta": {
+            "title": "CropMask"
+        }
+    }
+}
