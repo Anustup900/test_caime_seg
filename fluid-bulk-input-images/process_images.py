@@ -28,8 +28,10 @@ WORKFLOW_PATH  = "seg-api.json"             # Path to your exported API-format w
 OUTPUT_DIR     = Path("fluid-bulk-output")
 
 # Node titles as they appear in your ComfyUI workflow
-NODE_IMAGE     = '$map:{"image":"productImage"}'    # Load Image node title
-NODE_CLASS     = '$map:{"strings":"className"}'     # String / text node title
+NODE_IMAGE       = '$map:{"image":"productImage"}'              # Load Image node title
+NODE_CLASS       = '$map:{"strings":"className"}'               # String / text node title
+NODE_OUT_SEG     = '$map:{"saveImage":true,"type":"segmented"}' # Save Image node – segmented
+NODE_OUT_MASK    = '$map:{"saveImage":true,"type":"mask"}'      # Save Image node – mask
 
 # Keywords that appear in the Save-Image filename prefix for each output type.
 # ComfyUI names saved files as  <filename_prefix>_00001_.png
@@ -266,13 +268,16 @@ def run():
 
             # 2. Upload image to ComfyUI and wire it in
             uploaded = api.upload_image(str(img_path))
-            wf.set_node_param(NODE_IMAGE, "image", uploaded)
+            image_name = uploaded["name"] if isinstance(uploaded, dict) else uploaded
+            wf.set_node_param(NODE_IMAGE, "image", image_name)
 
             # 3. Set class name string
             wf.set_node_param(NODE_CLASS, "strings", class_name)
 
-            # 4. Run workflow and collect all output images
-            raw_outputs = api.queue_and_wait_images(wf)
+            # 4. Run workflow once per output node and merge results
+            raw_outputs = {}
+            raw_outputs.update(api.queue_and_wait_images(wf, NODE_OUT_SEG))
+            raw_outputs.update(api.queue_and_wait_images(wf, NODE_OUT_MASK))
 
             # 5. Sort outputs by type (segmented / mask)
             typed = classify_outputs(raw_outputs)
