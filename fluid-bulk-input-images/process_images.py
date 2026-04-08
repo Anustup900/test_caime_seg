@@ -24,12 +24,12 @@ from comfy_api_simplified import ComfyApiWrapper, ComfyWorkflowWrapper
 
 # ── Configuration ────────────────────────────────────────────────────────────
 SERVER_ADDRESS = "http://127.0.0.1:8188"   # Change to your ComfyUI server
-WORKFLOW_PATH  = "workflow_api.json"        # Path to your exported API-format workflow
+WORKFLOW_PATH  = "seg-api.json"             # Path to your exported API-format workflow
 OUTPUT_DIR     = Path("fluid-bulk-output")
 
 # Node titles as they appear in your ComfyUI workflow
-NODE_IMAGE     = "productImage"            # Load Image node title
-NODE_CLASS     = "className"               # String / text node title
+NODE_IMAGE     = '$map:{"image":"productImage"}'    # Load Image node title
+NODE_CLASS     = '$map:{"strings":"className"}'     # String / text node title
 
 # Keywords that appear in the Save-Image filename prefix for each output type.
 # ComfyUI names saved files as  <filename_prefix>_00001_.png
