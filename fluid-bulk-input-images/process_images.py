@@ -13,6 +13,7 @@ Output layout:
       mask.png
 """
 
+import asyncio
 import json
 import os
 import shutil
@@ -266,18 +267,39 @@ def run():
             # 1. Load fresh workflow for every image to avoid state leakage
             wf = ComfyWorkflowWrapper(str(base_dir / WORKFLOW_PATH))
 
-            # 2. Upload image to ComfyUI and wire it in
+            # 2. Upload image to ComfyUI and wire it in.
+            #    upload_image() puts files in a subfolder ("default_upload_folder"
+            #    by default).  We must include that subfolder in the node param
+            #    so ComfyUI can find the file during prompt validation.
             uploaded = api.upload_image(str(img_path))
-            image_name = uploaded["name"] if isinstance(uploaded, dict) else uploaded
+            if isinstance(uploaded, dict):
+                subfolder  = uploaded.get("subfolder", "")
+                image_name = f"{subfolder}/{uploaded['name']}" if subfolder else uploaded["name"]
+            else:
+                image_name = uploaded
             wf.set_node_param(NODE_IMAGE, "image", image_name)
 
             # 3. Set class name string
             wf.set_node_param(NODE_CLASS, "strings", class_name)
 
-            # 4. Run workflow once per output node and merge results
+            # 4. Run workflow ONCE, then collect both output nodes from the
+            #    same history entry — avoids running the heavy workflow twice.
+            prompt_id, _ = asyncio.run(api.queue_prompt_and_wait(wf))
+            history       = api.get_history(prompt_id)
+            run_outputs   = history[prompt_id]["outputs"]
+
             raw_outputs = {}
-            raw_outputs.update(api.queue_and_wait_images(wf, NODE_OUT_SEG))
-            raw_outputs.update(api.queue_and_wait_images(wf, NODE_OUT_MASK))
+            for node_title in [NODE_OUT_SEG, NODE_OUT_MASK]:
+                node_id    = wf.get_node_id(node_title)
+                node_data  = run_outputs.get(node_id, {})
+                images     = (node_data.get("images")
+                              or node_data.get("gifs")
+                              or node_data.get("audio")
+                              or [])
+                for img in images:
+                    raw_outputs[img["filename"]] = api.get_image(
+                        img["filename"], img["subfolder"], img["type"]
+                    )
 
             # 5. Sort outputs by type (segmented / mask)
             typed = classify_outputs(raw_outputs)

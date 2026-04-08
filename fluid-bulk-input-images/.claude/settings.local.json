@@ -6,7 +6,8 @@
       "WebFetch(domain:api.github.com)",
       "Bash(python3 -c \":*)",
       "Bash(python -c \":*)",
-      "Read(//c/Users/anust/**)"
+      "Read(//c/Users/anust/**)",
+      "WebFetch(domain:pypi.org)"
     ]
   }
 }
